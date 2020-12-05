@@ -15,13 +15,24 @@
         <h1 class="text-center">Bingo</h1>
     <div id="divprin"> 
 
-        <label for="CantCartones">Cantidad de Jugadores:</label>
+        <p class="font-italic">Ingrese la cantidad de jugadores, luego en el cartel que aparece sus nombres</p>
+        <p class="font-italic">y por ultimo valla apretando en "Sacar Numero" y de esta manera se determinada quien es el ganador</p>
 
-        <input type="number" id="CantCartones" name="CantCartones"></input>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <label for="CantCartones">Cantidad de Jugadores:</label>
 
-        <input type="submit" id="BtnCantJug" name="BtnCantJug" value="Ingresar Nombres" onclick=" return CantJugadores()"></input>
-
-        <input type="submit" id="BtnDarNum" name="BtnDarNum" value="Sacar Numero" onclick=" return DarNumero()"></input>
+                <input type="number" id="CantCartones" name="CantCartones"></input>
+        
+                <input type="submit" id="BtnCantJug" name="BtnCantJug" value="Ingresar Nombres" onclick=" return CantJugadores()"></input>
+        
+              </div>
+              <div class="col">
+                <input type="submit" id="BtnDarNum" name="BtnDarNum" value="Sacar Numero" onclick=" return DarNumero()"></input>
+              </div>
+            </div>
+        </div>
     
     </div>
         
