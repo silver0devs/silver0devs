@@ -1,4 +1,14 @@
 function CantJugadores(){
+    
+    let residuosi = document.getElementById("divizq");
+    
+    while (residuosi.firstChild) {
+       residuosi.removeChild(residuosi.firstChild);}
+
+    let residuosd = document.getElementById("divder");
+
+    while (residuosd.firstChild) {
+        residuosd.removeChild(residuosd.firstChild);}
 
     let dialognom = document.createElement('dialog');
     dialognom.id="dialogn"
