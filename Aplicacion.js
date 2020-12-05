@@ -36,7 +36,8 @@ function CantJugadores(){
     btnNom.value="CrearCartones";
     dialognom.appendChild(btnNom);
     
-    document.body.appendChild(dialognom)
+    let di = document.getElementById('divizq');
+    di.appendChild(dialognom)
     
     dialognom.showModal()
 }
