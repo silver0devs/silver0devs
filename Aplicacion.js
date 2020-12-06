@@ -69,7 +69,7 @@ function CrearCartones(){
         divizq.appendChild(divnomjug);
 
         var divcarton = document.createElement('div');
-        divcarton.className="table";
+        divcarton.className="container";
         //divcarton.id="divr";
         
         var divfila1 = document.createElement('div');
